@@ -10,4 +10,4 @@
 
 ### dentro de la consola de mongosh ejecutar, es importante que este en la carpeta donde esta el .js:
 
-``` load("miscripts.js") ```
+``` load("miscripts.js") ``` o desde la consola usar ``` mongosh --file miscripts.js ```
