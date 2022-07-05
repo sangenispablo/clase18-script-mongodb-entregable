@@ -1,8 +1,8 @@
 // Nos conectamos a la BD en local (Consigna)
 // db = connect("mongodb://localhost:27017/ecommerce");
-db = connect(
-  "mongodb+srv://pablo_admin:xy34TxCdRUWe3vP@miclusterpas.rqsvs.mongodb.net/ecommerce"
-);
+// db = connect(
+//   "mongodb+srv://<usuario>:<password>@xxxxxx.mongodb.net/ecommerce"
+// );
 
 // Creamos las dos colecciones (Consigna)
 db.createCollection("mensajes");
